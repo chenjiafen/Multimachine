@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test1(failed)" parallel="tests">
+    <parameter name="port" value="4491"/>
+    <parameter name="udid" value="127.0.0.1:62025"/>
+    <parameter name="systemPort" value="8202"/>
+    <classes>
+      <class name="com.testng.study.ZhihuTests">
+        <methods>
+          <include name="test002_settings"/>
+          <include name="test003_logout"/>
+          <include name="init"/>
+          <include name="init"/>
+          <include name="test001_login"/>
+        </methods>
+      </class> <!-- com.testng.study.ZhihuTests -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test name="Test(failed)" parallel="tests">
+    <parameter name="port" value="4490"/>
+    <parameter name="udid" value="127.0.0.1:62001"/>
+    <parameter name="systemPort" value="8201"/>
+    <classes>
+      <class name="com.testng.study.ZhihuTests">
+        <methods>
+          <include name="test002_settings"/>
+          <include name="test003_logout"/>
+          <include name="init"/>
+          <include name="init"/>
+          <include name="test001_login"/>
+        </methods>
+      </class> <!-- com.testng.study.ZhihuTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

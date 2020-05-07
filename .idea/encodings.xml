@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/testfan/appium/init/AppiumUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/testfan/appium/init/InitDriver.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/testfan/appium/init/StartServer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/testfan/javabasic/Animal.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/testfan/javabasic/ArrayTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/testfan/javabasic/ExceptionTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/testfan/javabasic/First.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/testfan/javabasic/HashMapTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/testfan/javabasic/JudgeTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/testfan/javabasic/ListTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/testfan/javabasic/Method1.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/testfan/javabasic/MethodCreate.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/testfan/javabasic/Second.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/testfan/javabasic/StringTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/testfan/javabasic/XunHuanTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/testfan/testcases/zhihu/HunHeApp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/testfan/testcases/zhihu/QQTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/testfan/testcases/zhihu/ZhihuTestCases.java" charset="GBK" />
+  </component>
+</project>

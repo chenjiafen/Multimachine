@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="2">
+  <test name="Test">
+    <parameter name="port"  value="4490"/>
+    <parameter name="systemPort"  value="8201"/>
+    <parameter name="udid" value="127.0.0.1:62001"/>
+    <parameter name="bp" value="2356"/>
+    <classes>
+      <class name="com.testng.study.ZhihuTests"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test1">
+  
+    <parameter name="port"  value="4491"/>
+    <parameter name="systemPort"  value="8202"/>
+    <parameter name="udid" value="127.0.0.1:62025"/>
+    <parameter name="bp" value="2357"/>
+    <classes>
+      <class name="com.testng.study.ZhihuTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

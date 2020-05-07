@@ -1,0 +1,77 @@
+2018-05-06 09:15:11:374 - info: [Appium] Welcome to Appium v1.7.2
+2018-05-06 09:15:11:381 - info: [Appium] Non-default server args:
+2018-05-06 09:15:11:384 - info: [Appium]   port: 4491
+2018-05-06 09:15:11:384 - info: [Appium]   log: D:\workspace\Atestfan180311\logs\appium4491.log
+2018-05-06 09:15:11:495 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4491
+2018-05-06 09:15:12:129 - info: [HTTP] --> GET /wd/hub/status {}
+2018-05-06 09:15:12:153 - info: [debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+2018-05-06 09:15:12:182 - info: [debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.7.2","revision":null}}
+2018-05-06 09:15:12:205 - info: [HTTP] <-- GET /wd/hub/status 200 64 ms - 72 
+2018-05-06 09:15:12:463 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"appPackage":"com.zhihu.android","noReset":true,"noSign":true,"appWaitActivity":"com.zhihu.android.app.ui.activity.MainActivity","deviceName":"随便写","appActivity":"com.zhihu.android.app.ui.activity.LauncherActivity","newCommandTimeout":600,"automationName":"UIAutomator2","unicodeKeyboard":true,"platformName":"Android","udid":"127.0.0.1:62025","resetKeyboard":true,"systemPort":"8202"},"requiredCapabilities":{},"capabilities":{"desiredCapabilities":{"appPackage":"com.zhihu.android","noReset":true,"noSign":true,"appWaitActivity":"com.zhihu.android.app.ui.activity.MainActivity","deviceName":"随便写","appActivity":"com.zhihu.android.app.ui.activity.LauncherActivity","newCommandTimeout":600,"automationName":"UIAutomator2","unicodeKeyboard":true,"platformName":"Android","udid":"127.0.0.1:62025","resetKeyboard":true,"systemPort":"8202"},"requiredCapabilities":{},"alwaysMatch":{"platformName":"Android"},"firstMatch":[]}}
+2018-05-06 09:15:12:464 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"appPackage":"com.zhihu.android","noReset":true,"noSign":true,"appWaitActivity":"com.zhihu.android.app.ui.activity.MainActivity","deviceName":"随便写","appActivity":"com.zhihu.android.app.ui.activity.LauncherActivity","newCommandTimeout":600,"automationName":"UIAutomator2","unicodeKeyboard":true,"platformName":"Android","udid":"127.0.0.1:62025","resetKeyboard":true,"systemPort":"8202"},{},{"desiredCapabilities":{"appPackage":"com.zhihu.android","noReset":true,"noSign":true,"appWaitActivity":"com.zhihu.android.app.ui.activity.MainActivity","deviceName":"随便写","appActivity":"com.zhihu.android.app.ui.activity.LauncherActivity","newCommandTimeout":600,"automationName":"UIAutomator2","unicodeKeyboard":true,"platformName":"Android","udid":"127.0.0.1:62025","resetKeyboard":true,"systemPort":"8202"},"requiredCapabilities":{},"alwaysMatch":{"platformName":"Android"},"firstMatch":[]}]
+2018-05-06 09:15:12:466 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1525598112466 (17:15:12 GMT+0800 (中国标准时间))
+2018-05-06 09:15:12:469 - info: [Appium] Merged W3C capabilities {"desiredCapabilities":{"appPackage":"com.zhihu... into desiredCapabilities object {"appPackage":"com.zhihu.android","noReset":tru...
+2018-05-06 09:15:12:479 - info: [Appium] Creating new AndroidUiautomator2Driver (v0.11.0) session
+2018-05-06 09:15:12:479 - info: [Appium] Capabilities:
+2018-05-06 09:15:12:480 - info: [Appium]   appPackage: com.zhihu.android
+2018-05-06 09:15:12:480 - info: [Appium]   noReset: true
+2018-05-06 09:15:12:480 - info: [Appium]   noSign: true
+2018-05-06 09:15:12:481 - info: [Appium]   appWaitActivity: com.zhihu.android.app.ui.activity.MainActivity
+2018-05-06 09:15:12:482 - info: [Appium]   deviceName: 随便写
+2018-05-06 09:15:12:482 - info: [Appium]   appActivity: com.zhihu.android.app.ui.activity.LauncherActivity
+2018-05-06 09:15:12:482 - info: [Appium]   newCommandTimeout: 600
+2018-05-06 09:15:12:483 - info: [Appium]   automationName: UIAutomator2
+2018-05-06 09:15:12:483 - info: [Appium]   unicodeKeyboard: true
+2018-05-06 09:15:12:483 - info: [Appium]   platformName: Android
+2018-05-06 09:15:12:484 - info: [Appium]   udid: 127.0.0.1:62025
+2018-05-06 09:15:12:484 - info: [Appium]   resetKeyboard: true
+2018-05-06 09:15:12:484 - info: [Appium]   systemPort: 8202
+2018-05-06 09:15:12:504 - warn: [BaseDriver] Capability 'systemPort' changed from string ('8202') to integer (8202). This may cause unexpected behavior
+2018-05-06 09:15:12:604 - info: [BaseDriver] Session created with session id: f3f1eb23-246f-4435-9e24-849e5f23c4f6
+2018-05-06 09:15:12:623 - info: [debug] [AndroidDriver] Getting Java version
+2018-05-06 09:15:13:043 - info: [AndroidDriver] Java version is: 1.8.0_121
+2018-05-06 09:15:13:050 - info: [ADB] Checking whether adb is present
+2018-05-06 09:15:13:057 - info: [ADB] Using adb.exe from D:\android-sdk_r24.4.1-windows\sdk\platform-tools\adb.exe
+2018-05-06 09:15:13:058 - info: [AndroidDriver] Retrieving device list
+2018-05-06 09:15:13:059 - info: [debug] [ADB] Trying to find a connected android device
+2018-05-06 09:15:13:062 - info: [debug] [ADB] Getting connected devices...
+2018-05-06 09:15:13:165 - info: [debug] [ADB] 2 device(s) connected
+2018-05-06 09:15:13:171 - info: [AndroidDriver] Using device: 127.0.0.1:62025
+2018-05-06 09:15:13:173 - info: [ADB] Checking whether adb is present
+2018-05-06 09:15:13:177 - info: [debug] [ADB] Setting device id to 127.0.0.1:62025
+2018-05-06 09:15:13:180 - info: [debug] [ADB] Getting connected devices...
+2018-05-06 09:15:13:316 - info: [debug] [ADB] 2 device(s) connected
+2018-05-06 09:15:13:325 - info: [debug] [ADB] Running 'D:\android-sdk_r24.4.1-windows\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62025","shell","getprop","ro.build.version.sdk"]
+2018-05-06 09:15:13:476 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 19
+2018-05-06 09:15:13:476 - info: [debug] [ADB] Device API level: 19
+2018-05-06 09:15:13:487 - error: [UiAutomator2] Error: UIAutomation2 is only supported since Android 5.0 (Lollipop). You could still use other supported backends in order to automate older Android versions.
+    at Object.wrappedLogger.errorAndThrow (C:\Users\LXG\AppData\Roaming\npm\node_modules\appium\node_modules\appium-support\lib\logging.js:69:13)
+    at AndroidUiautomator2Driver.startUiAutomator2Session$ (C:\Users\LXG\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:261:14)
+    at tryCatch (C:\Users\LXG\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\LXG\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\LXG\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\LXG\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+ Error: UIAutomation2 is only supported since Android 5.0 (Lollipop). You could still use other supported backends in order to automate older Android versions.
+    at Object.wrappedLogger.errorAndThrow (C:\Users\LXG\AppData\Roaming\npm\node_modules\appium\node_modules\appium-support\lib\logging.js:69:13)
+    at AndroidUiautomator2Driver.startUiAutomator2Session$ (C:\Users\LXG\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:261:14)
+    at tryCatch (C:\Users\LXG\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\LXG\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\LXG\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\LXG\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2018-05-06 09:15:13:491 - info: [debug] [UiAutomator2] Deleting UiAutomator2 session
+2018-05-06 09:15:13:492 - info: [debug] [ADB] Getting connected devices...
+2018-05-06 09:15:13:658 - info: [debug] [ADB] 2 device(s) connected
+2018-05-06 09:15:13:659 - info: [debug] [ADB] Running 'D:\android-sdk_r24.4.1-windows\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62025","shell","am","force-stop","com.zhihu.android"]
+2018-05-06 09:15:14:724 - info: [debug] [ADB] Removing forwarded port socket connection: 8202 
+2018-05-06 09:15:14:725 - info: [debug] [ADB] Running 'D:\android-sdk_r24.4.1-windows\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62025","forward","--remove","tcp:8202"]
+2018-05-06 09:15:14:813 - info: [debug] [ADB] Running 'D:\android-sdk_r24.4.1-windows\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62025","forward","--remove","tcp:8202"]
+2018-05-06 09:15:14:897 - warn: [UiAutomator2] Unable to remove port forward 'Error executing adbExec. Original error: 'Command 'D\:\\android-sdk_r24.4.1-windows\\sdk\\platform-tools\\adb.exe -P 5037 -s 127.0.0.1\:62025 forward --remove tcp\:8202' exited with code 1'; Stderr: 'error: listener not found
+error: listener not found'; Code: '1''
+2018-05-06 09:15:14:900 - error: [MJSONWP] Encountered internal error running command: Error: UIAutomation2 is only supported since Android 5.0 (Lollipop). You could still use other supported backends in order to automate older Android versions.
+    at Object.wrappedLogger.errorAndThrow (C:\Users\LXG\AppData\Roaming\npm\node_modules\appium\node_modules\appium-support\lib\logging.js:69:13)
+    at AndroidUiautomator2Driver.startUiAutomator2Session$ (C:\Users\LXG\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:261:14)
+    at tryCatch (C:\Users\LXG\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\LXG\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\LXG\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\LXG\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2018-05-06 09:15:14:914 - info: [HTTP] <-- POST /wd/hub/session 500 2450 ms - 288 
